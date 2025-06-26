@@ -1,22 +1,92 @@
-# Autonomos Dev - Proyecto Vigía
+# SIE - Sistema de Retroalimentación para el Buen Uso de Recursos Públicos en Educación
 
-Sistema de gestión autonomos_dev para el proyecto Vigía, un sistema integral de seguimiento de pacientes a través de diversas fases médicas, garantizando la privacidad de los datos mediante tokenización y cumpliendo con normativas HIPAA.
+## 🎯 Objetivo del Desafío
+Desarrollar e implementar soluciones innovadoras que optimicen la gestión, fiscalización y retroalimentación de recursos en el sistema educativo chileno, promoviendo un gasto efectivo que impacte positivamente en los aprendizajes.
 
-## Resumen del Proyecto
+## 📊 Contexto del Problema
+- **11.000+** establecimientos educacionales con financiamiento público
+- **5.000+** sostenedores administrando recursos
+- **USD 9 mil millones** anuales en subvenciones educativas
+- **$46.200 millones** en gastos no aceptados detectados en 2023
+- **Problema central**: Falta de retroalimentación oportuna sobre gestión educativa
 
-- **Objetivo:** Implementar un sistema de gestión médica que abarque desde la recepción del paciente hasta la respuesta final, con análisis multimodal (imagen y voz) y comunicación bidireccional.
-- **Estado Actual:** Fase 1 y Fase 2 completadas, con almacenamiento de imágenes médicas, análisis de voz, y tokenización de datos para privacidad. Preparado para implementar Fase 3 con notificaciones multimodales.
-- **Logros Clave:** 
-  - Arquitectura de IA médica MONAI con respaldo YOLOv5.
-  - Almacenamiento completo de análisis de agentes y trazabilidad de decisiones médicas.
-  - Comunicación bidireccional entre pacientes (WhatsApp) y equipo médico (Slack).
+## 🚀 Solución Propuesta
+Plataforma digital inteligente que integre:
+- 📈 Análisis predictivo con ML/AI
+- 🚨 Sistema de alertas tempranas
+- 📊 Benchmarking con sostenedores similares
+- 💡 Recomendaciones basadas en evidencia
+- 📱 Dashboard interactivo y mobile-first
 
-## Estructura de Fases
+## 🏆 Estructura del Desafío
+## 📅 Timeline Detallado
+- **Mayo 22 - Julio 9, 2025**: Periodo de postulación
+- **Julio - Mayo 2026**: Etapa 1 - Formulación
+- **Mayo 2026 - Enero 2027**: Etapa 2 - Validación
+- **Enero - Julio 2027**: Etapa 3 - Escalamiento
 
-1. **Fase 1: Recepción del Paciente** - Completada con separación dual de bases de datos.
-2. **Fase 2: Procesamiento Médico Multimodal** - Implementada con análisis de imagen y voz.
-3. **Fase 3: Notificación Equipo Médico** - Lista para implementación con contexto multimodal.
-4. **Fase 4: Revisión Humana** - Implementada con comunicación bidireccional.
-5. **Fase 5: Respuesta al Paciente** - Implementada con respuestas aprobadas y seguras.
+## 🎯 Indicadores Clave a Desarrollar
 
-Para más detalles, consulta la documentación en la carpeta `knowledge_base`.
+1. **Índice de Complejidad Territorial**
+   - Ruralidad, conectividad, vulnerabilidad escolar
+   
+2. **Costo por Alumno Contextualizado**
+   - Comparación por clúster similar
+   
+3. **Eficiencia en Dotación Docente**
+   - Horas curriculares vs contratadas
+   
+4. **Inversión en Innovación Pedagógica**
+   - % sobre gastos no remuneracionales
+
+5. **Índice de Sostenibilidad Financiera**
+   - Dependencia de fuentes (HHI)
+
+## 🛠 Stack Tecnológico Propuesto
+
+### Backend
+- Python/FastAPI
+- PostgreSQL + TimescaleDB
+- Redis para caché
+- Apache Spark para analytics
+
+### Frontend
+- React + TypeScript
+- Tailwind CSS
+- Chart.js/D3.js
+- PWA capabilities
+
+### Infraestructura
+- AWS/Azure
+- Docker + Kubernetes
+- CI/CD con GitHub Actions
+- Monitoring con Grafana
+
+## 📁 Estructura del Proyecto
+## 🎯 Métricas de Éxito
+
+### Impacto Esperado
+- ⬇️ 50% reducción en gastos no aceptados
+- 📈 80% adopción por sostenedores objetivo
+- ⭐ 4.5+/5 satisfacción usuarios
+- 💰 ROI demostrable en 12 meses
+
+### KPIs Técnicos
+- Uptime 99.9%
+- Response time < 200ms
+- Concurrent users: 5.000+
+- Data processing: Real-time
+
+## 🤝 Colaboradores Clave
+- Superintendencia de Educación (SIE)
+- MINEDUC
+- ANID
+- Laboratorio de Gobierno
+
+## 📞 Contacto
+- **Equipo**: Autonomos Dev
+- **Email**: sie@autonomos.dev
+- **Desafío**: https://desafiospublicos.cl
+
+---
+*Este proyecto participa en Desafíos Públicos 2025*

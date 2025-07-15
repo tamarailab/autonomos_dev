@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sudo apt:*)",
+      "Bash(gh auth:*)",
+      "Bash(git push:*)"
+    ],
+    "deny": []
+  }
+}

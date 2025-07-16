@@ -2,7 +2,9 @@
 
 ## GitHub - tamarailab
 - [ ] autonomos_dev (este repo)
-- [ ] [agregar otros repos del equipo]
+
+## GitHub - AutonomosCdM
+- [ ] sie-pred
 
 ## Hugging Face Spaces
 - [ ] autonomos-cl/vigia
